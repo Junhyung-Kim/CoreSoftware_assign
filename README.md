@@ -6,6 +6,8 @@ gtest.cpp -> test assign4.cpp
 
 assign4.py -> Using json format output draw CDF & PDF graph nd make graph pdf file 
 
+assign2.py -> tokenize txt files. and draw the graph (PDF, CDF of word frequency)
+
 -----Google Test-----
 
 (1) Get the googletest framework
@@ -69,7 +71,7 @@ Third test is checking value.
 
 (3) Run it 
 
--> $ ./assign4 Aladdin.txt | python assign4.py
+-> $ ./assign4 [text file name] | python assign4.py
 
 
 Then, you can make json output (standard Output) & json format file
@@ -77,3 +79,7 @@ Then, you can make json output (standard Output) & json format file
 If you want to make CDF, PDF using json format (Standard Input)
 
 Then, you can plot CDF, PDF graph & make pdf file named Graph_pdf
+
+-----If you want tokenize text file using python-----
+
+-> $ python assignment2.py [text file name]
